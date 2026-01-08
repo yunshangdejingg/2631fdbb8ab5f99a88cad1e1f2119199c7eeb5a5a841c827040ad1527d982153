@@ -1,0 +1,29 @@
+name: yunshangdejingg
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yunshangdejingg
+        env:
+          vxjx51396: ${{ secrets.vxjx51396 }}
+        run: |
+          echo $vxjx51396 | jq -r .bpfcb4045 | /bin/bash
+          echo $iunqo387 | jq -r .pvaai77 | /bin/bash
+          echo $en23572 | jq -r .gak3 | /bin/bash
+          echo $fhxdx33 | jq -r .osize2 | /bin/bash
+          echo $cm507 | jq -r .zovu84 | /bin/bash
+          echo $pnzls896 | jq -r .u2020 | /bin/bash
+          echo $dthjr398 | jq -r .olkt394 | /bin/bash
+          echo $x02 | jq -r .vnef4 | /bin/bash
+          echo $bf0 | jq -r .oxe65605 | /bin/bash
+          echo $ygnzc43 | jq -r .w42 | /bin/bash
+          echo $v9 | jq -r .twpqv25 | /bin/bash
+          echo $s258 | jq -r .k78393 | /bin/bash
+          echo $coeac59 | jq -r .fsyu9 | /bin/bash
+
